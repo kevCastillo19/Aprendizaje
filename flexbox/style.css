@@ -1,0 +1,8 @@
+.container {
+    background-color: rgb(122, 120, 120);
+    display: inline-flex;
+}
+
+.item {
+    background-color: rgb(0, 0, 0);
+}

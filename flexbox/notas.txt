@@ -1,0 +1,13 @@
+En flexbox tendremos filas o columnas pero jamas ambas
+
+Tendremos el contenedor que es el flex container,
+los hijos, que se les aplica el comportamiento de flexbox, flex items
+Eje principal, main axis (x) y el secundario llamado cross axis (y)
+
+El comportamiento por default es alinearse en filas
+
+etiquetas contenedoras trabajan en bloque, ocupan todo el ancho
+
+Con el "flex" se elinean en bloque, su comportamiento natural
+Con "inline-flex" se alinean en fila con otras cajas
+ocupan solo el ancho necesario

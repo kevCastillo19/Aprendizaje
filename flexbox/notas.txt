@@ -11,3 +11,18 @@ etiquetas contenedoras trabajan en bloque, ocupan todo el ancho
 Con el "flex" se elinean en bloque, su comportamiento natural
 Con "inline-flex" se alinean en fila con otras cajas
 ocupan solo el ancho necesario
+
+Unidades de vh y porcentajes* Ver video de jonmircha
+
+el flex-wrap nos organiza los flex items
+si queremos organizarlos en una sola fila o hacer que se ajusten
+automaticamente
+
+el valor por default de flex-wrap es "nowrap" 
+atributo el cual mantiene el orden de los flex-items
+
+flex-direction y el flex-wrap es como se comportara el flujo de la cajas
+
+flex-flow es un atajo a estas dos propiedades
+
+flex-flow recibe primero la direccion y luego el envoltorio (wrap)

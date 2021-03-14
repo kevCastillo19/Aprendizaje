@@ -10,7 +10,7 @@
     display: flex;
     /*flex-direction: row-reverse;
     flex-wrap: wrap;*/
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     /*|direction|wrap|*/
     justify-content: flex-start; /*Alineacion del eje principal*/
     /*Alineacion del eje secundario*/
@@ -34,10 +34,15 @@
     flex-basis: 100px; /*Es el tamaño del elemento hijo detro de la linea principal de la caja
     depende del flex-direction*/
     flex: 1 1 auto; /*|grow|shrink|basis|*/
+    order: 0; /*Representa el orden que tendran los elementos hijos en la caja flexbox*/
+    align-self: stretch; /*Aplica a cada item*/
 }
 .items:nth-child(2) {
     /* flex-grow: 2; */
+    order: -2;
 }
 .items:nth-child(3) {
     /* flex-grow: 3; */
+    order: -1;
+    align-self: flex-end;
 }

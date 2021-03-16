@@ -1,0 +1,29 @@
+Grid CSS: Segundo sistema para maquetar interfaces web
+Es un sistema bidimensional, tu defines las celdas y el area
+que ocuparan para maquetar estructuras
+
+Flexbox es complementado con CSS Grid
+Flexbox es para alinear los elementos internos de un 
+componente de UI
+En cambio Grid CSS nos permite saber que espacios ocuparan 
+las filas y columnas
+
+Grid CSS es mas joven porque los navegadores comenzaron a 
+soportarlo en 2007
+
+Conceptos basicos
+
+Contenedor padre, aplicamos el display Grid
+
+Los hijos o grid items son las celdas que se formaran en la 
+intercepcion de una celda y una columna
+
+Con grid hay diferentes formas de definir las areas de 
+maquetacion
+
+Grid Track o pista de cuadricula, toda una fila o toda una
+columna
+
+Celda, intercepcion entre columna y fila
+
+Grid areas son areas cuadriculares
